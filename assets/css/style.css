@@ -29,6 +29,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
     height: 100vh;
     background-color: var(--purple-01);
 }
@@ -113,4 +114,67 @@ main {
     line-height: 140%;
     margin-top: 30px;
     color: var(--purple-02);
+}
+
+@media (max-width: 780px) {
+
+    .banner {
+        background-image: url('../images/background-pattern-mobile.svg');
+    }
+
+    .container {
+        width: 350px;
+        gap: 0;
+    }
+
+    .title img {
+        width: 30px;
+    }
+
+    .title h1 {
+        font-size: 2.5em;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .banner {
+        height: 200px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .title {
+        gap: 10px;
+    }
+
+    .title img {
+        width: 25px;
+    }
+
+    .title h1 {
+        font-size: 2em;
+    }
+
+    .accordion {
+        padding: 15px 0;
+    }
+
+    .accordion summary {
+        font-size: 0.8em;
+    }
+
+    .accordion-icon img, .accordion-icon {
+        width: 20px;
+    }
+
+    .accordion p {
+        font-size: 0.85em;
+        line-height: normal;
+        margin-top: 15px;
+    }
+
 }
