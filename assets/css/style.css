@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
+}
+
+:root {
+
+    --white: #ffffff;
+    --purple-01: #f9f0ff;
+    --purple-02: #8c6991;
+    --purple-03: #2f1533;
+
+    --font-primary: 'Work Sans';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-primary), Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
