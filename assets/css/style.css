@@ -58,6 +58,7 @@ main {
     padding-top: 40px;
     background-color: var(--white);
     border-radius: 20px;
+    box-shadow: -1px 5px 40px 15px rgba(47, 21, 51, 0.13);
 }
 
 .title {
